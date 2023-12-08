@@ -98,7 +98,7 @@ printf("randomNum:%d\n",randomNum);*/
 
 #endif
 
-#if 1//变量尽量使用驼峰式命令// // x--先判断在运算  --先运算在判断//
+#if 0//变量尽量使用驼峰式命令// // x--先判断在运算  --先运算在判断//
 
     int circletime = COUNT_NUM>>1;
     int randomNum = 0;
@@ -108,6 +108,25 @@ printf("randomNum:%d\n",randomNum);*/
         printf("randomNum:%d\n",randomNum);
     }
     
+
+
+
+
+
+
+#endif
+#if 1  //do.....while//
+
+int varanum = 0;
+do
+{
+    printf("varanum:%d\n",varanum);
+} while (varanum);
+
+
+
+
+
 
 
 
